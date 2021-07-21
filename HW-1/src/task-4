@@ -1,0 +1,11 @@
+let credits = 23580;
+let pricePerDroid = 3000;
+let totalPrice;
+
+let inserted_Droid = prompt("Введи, будь ласкаБ кількість дроїдів:");
+
+else if (inserted_Droid == null || inserted_Droid == "") message = "Скасовано користувачем!";
+else {
+    totalPrice = inserted_Droid * pricePerDroid;
+    if (totalPrice > credits) console.log('Недостатньо коштів на рахунку!');
+}
