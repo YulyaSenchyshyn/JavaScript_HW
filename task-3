@@ -1,1 +1,10 @@
 
+const ADMIN_PASSWORD = 'jqueryismyjam';
+let message;
+
+let inserted_password = prompt("Please enter your password:", "jqueryismyjam");
+
+if (inserted_password == ADMIN_PASSWORD) message = 'Ласкаво просимо!';
+else if (inserted_password == null || inserted_password == "") message = "Скасовано користувачем!";
+else message = 'Доступ заборонений, невірний пароль!';
+alert(message);
